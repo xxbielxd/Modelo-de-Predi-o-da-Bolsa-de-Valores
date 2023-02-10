@@ -9,4 +9,11 @@ algum padrão na ação que o algoritmo consigo predizer.
 
 # Técnico
 
-Usamos deeplearnig, no caso LSTM 
+Usamos:
+- deeplearnig(LSTM)
+- API yahooquery, para retornar os dados da ação
+- API do Banco Central, para retornar os dados da SELIC nos últimos anos (https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json)
+- Pandas, para acessar os dados e manipular 
+- matplotlib, para plotar os gráficos
+
+Usamos várias outras ferramentas que o python dispõem, mas listamos os mais importantes.
